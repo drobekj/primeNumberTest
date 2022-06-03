@@ -38,21 +38,5 @@ public class TestNaPrvocislo {
         } catch (IOException ex) {
             System.out.println("Chyba při čtení souboru: " + ex.getMessage());
         }
-        
-        int[] delence={1,2,3,4,5,6,7,42,5,73,35,36,78};
-        for(int delenec : delence){
-            //osetrit celociselny vstup
-            int cislo = 2;
-            while(Math.floorMod(delenec,cislo)!=0 && cislo < Math.sqrt(delenec)){
-                cislo++;
-            }
-            if(cislo > Math.sqrt(delenec)){
-                System.out.println(delenec + " je prvocislo");
-            }
-            else
-            {
-                System.out.println(delenec + " neni prvocislo, protoze je delitelne cislem " + cislo);
-            }
-        }
     }
 }
