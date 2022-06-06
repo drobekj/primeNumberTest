@@ -1,4 +1,3 @@
-package cz.itnetwork.testnaprvocislo;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -9,7 +8,7 @@ import java.util.Scanner;
 public class TestNaPrvocislo {
 
     public static void main(String[] args) {
-        Path path = Path.of(System.getProperty("user.home"), "testNaPrvocislo", "zadani", "vzorek_dat.txt");
+        Path path = Path.of(System.getProperty("user.home"), "testNaPrvocislo", "zadani", args[0]);
         try {
             List<String> lines = Files.readAllLines(path);
 
