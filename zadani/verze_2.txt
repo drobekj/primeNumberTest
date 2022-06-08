@@ -1,19 +1,11 @@
-Šlo by prosím ještě úlohu trochu rozpracovat:
-
-- načíst data z XLS dle požadavků zadání např. využít Workbook wb = new XSSFWorkbook(new FileInputStream(path));
-
-poznámky k youtube:
-- s novým projektem nespouští maven ale java
-
-
-
-
-
-
+- načíst data z XLS:
+nedaří se mi zprovoznit Apache POI library
 
 - výpočet prvočísla oddělit to samostatné třídy
+změněno
 
 - použít metody pro funkční celky (vyvarovat se jedné metodě, která pokrývá veškerou funkcionalitu), aby byly tyto metody jednoduše testovatelné a pokrývaly jednoznačnou funkcionalitu
+změněno
 
 - uzavírat otevřený soubor:
 Z toho, co jsem našel, soudím, že při použití balíčku java.nio má metoda readAllLines()
@@ -22,4 +14,5 @@ https://www.itnetwork.cz/java/soubory/java-tutorial-prace-se-soubory-txt/?all-co
 nebo zde:
 https://www.delftstack.com/howto/java/java-nio-package/#use-nio-package-to-read-and-write-to-a-file-in-java 
 
-volitelně, pak zvážit, zdali jste schopen mít jako Maven projek (s pom.xml souborem), není nutno, jen ke zvážení.
+- volitelně, pak zvážit, zdali jste schopen mít jako Maven projek
+obvykle zakladám maven projekty v NetBeans, nevím ale, jak spustit aplikaci s parametrem (vstupní soubor)
