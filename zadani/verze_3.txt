@@ -1,0 +1,3 @@
+- zkuste práci s XLS po použití přiloženého POM souboru, pak by POI knihovna měla fungovat.
+
+ano, s dependencies v zaslaném pom.xls vše běží - první dvě jsem znal, tu poslední jsem nedokázal sám najít
